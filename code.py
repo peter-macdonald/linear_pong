@@ -8,7 +8,7 @@ import audioio
 from digitalio import DigitalInOut, Direction
 from analogio import AnalogIn
 
-sound = False
+sound = True
 
 FREQUENCY = 440  # 440 Hz middle 'A'
 SAMPLERATE = 8000  # 8000 samples/second, recommended!
